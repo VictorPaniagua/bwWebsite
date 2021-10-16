@@ -1,10 +1,47 @@
-.pageTitle {
+header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: #7a8590;
+}
+
+header a img {
+  display: block;
+  max-width: 100px;
+  max-height: 100px;
+  text-indent: -9999px;
+}
+
+header div {
+  background-color: #333;
+}
+
+.navigationBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navigationLinks li {
+  display: inline;
+}
+
+.navigationLinks a {
+  color: #c9f0d9;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  -webkit-text-stroke: 1px grey;
+  text-align: center;
+}
+
+.navigationLinks a:hover {
+  background-color: #111;
+}
+
+body {
+  background-color: #c9f0d9;
 }
 /*# sourceMappingURL=styles.css.map */
