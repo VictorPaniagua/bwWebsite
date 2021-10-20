@@ -1,0 +1,22 @@
+.about-us {
+  position: relative;
+}
+
+.park-photo {
+  width: 100%;
+  height: auto;
+  opacity: 60%;
+}
+
+.aboutUs-container {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.aboutUs-container img {
+  position: absolute;
+  width: 50%;
+}
+/*# sourceMappingURL=aboutUs.css.map */

@@ -2,6 +2,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: #333;
 }
 
 header a img {
@@ -43,5 +44,53 @@ header div {
 
 body {
   background-color: #c9f0d9;
+}
+
+.about-us {
+  position: relative;
+}
+
+.park-photo {
+  width: 100%;
+  height: auto;
+  opacity: 60%;
+}
+
+.aboutUs-container {
+  position: absolute;
+  top: 50px;
+  bottom: 50px;
+  text-align: center;
+}
+
+.aboutUs-container img {
+  position: absolute;
+  width: 50%;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #333;
+}
+
+footer section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #333;
+}
+
+.golfcourse-photo {
+  width: 100%;
+  height: auto;
+  opacity: 60%;
+}
+
+.trail-photo {
+  width: 100%;
+  height: auto;
+  opacity: 60%;
 }
 /*# sourceMappingURL=styles.css.map */
