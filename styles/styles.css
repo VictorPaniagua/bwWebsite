@@ -3,6 +3,10 @@ header {
   display: -ms-flexbox;
   display: flex;
   background-color: #333;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  width: 100%;
 }
 
 header a img {
@@ -58,13 +62,24 @@ body {
 
 .aboutUs-container {
   position: absolute;
-  top: 50px;
-  bottom: 50px;
+  top: 50%;
+  width: 100%;
+  background-color: #EBFFEE;
+}
+
+.aboutUs-container p {
+  position: absolute;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
+  left: 50%;
+  top: 50%;
 }
 
 .aboutUs-container img {
   position: absolute;
+  top: 50%;
+  left: 25%;
   width: 50%;
 }
 
