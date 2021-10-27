@@ -1,5 +1,39 @@
+.services-container {
+    position: relative;
+}
+
+.services-container h1 {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+}
+
+.services-container p {
+    position: absolute;
+    text-align: center;
+}
+
 .trail-photo {
+    position: absolute;
     width: 100%;
     height: auto;
     opacity: 60%;
+    z-index: -1;
+}
+
+.services-list-container {
+    position: absolute;
+
+}
+
+.landscaping-container {
+    position: absolute;
+}
+
+.painting-container {
+    position: absolute;
+}
+
+.powerwashing-container {
+    position: absolute;
 }
