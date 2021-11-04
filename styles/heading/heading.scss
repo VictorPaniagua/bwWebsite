@@ -7,30 +7,34 @@ header {
     width: 100%;
 }
 
-header a img  {
-    display: block;
-    max-width: 100px;
-    max-height: 100px;
-    text-indent: -9999px;
-}
 
-header div {
-    background-color: #333;
-}
-
-.navigationBar ul{
+// Navigation bar start
+.navigation-bar {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
     background-color: #333;
 }
 
-.navigationLinks li {
-    display: inline;
+.navigation-links{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    overflow: hidden;
+    
+    flex-wrap: wrap;
+    order: 5;
 }
 
-.navigationLinks a {
+.navigation-links li {
+    
+}
+
+.logo-home-link {
+    width: 25px;
+    height: 25px;
+    object-fit: scale-down;
+}
+
+.navigation-links a {
     color: rgb(201, 240, 217);
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -38,9 +42,10 @@ header div {
     font-weight: bold;
     -webkit-text-stroke: 1px grey;
     text-align: center;
-    
 }
 
-.navigationLinks a:hover{
+.navigation-links a:hover{
     background-color: #111;
 }
+
+// Navigation bar end

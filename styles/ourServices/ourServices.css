@@ -1,39 +1,29 @@
 .services-container {
-  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgba(201, 240, 217, 0.5);
 }
 
 .services-container h1 {
-  position: absolute;
-  text-align: center;
-  font-weight: bold;
-}
-
-.services-container p {
-  position: absolute;
-  text-align: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  justify-content: center;
 }
 
 .trail-photo {
-  position: absolute;
   width: 100%;
-  height: auto;
-  opacity: 60%;
-  z-index: -1;
-}
-
-.services-list-container {
-  position: absolute;
-}
-
-.landscaping-container {
-  position: absolute;
-}
-
-.painting-container {
-  position: absolute;
-}
-
-.powerwashing-container {
-  position: absolute;
+  height: 20%;
 }
 /*# sourceMappingURL=ourServices.css.map */
