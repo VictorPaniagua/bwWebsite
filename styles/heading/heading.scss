@@ -1,7 +1,7 @@
 header {
     display: flex;
     background-color: #333;
-    position: fixed;
+    position: sticky;
     z-index: 9999;
     top: 0;
     width: 100%;
@@ -23,13 +23,20 @@ header {
     order: 5;
 }
 
+.navigation-bar ul{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .navigation-links li {
     
 }
 
 .logo-home-link {
-    width: 25px;
-    height: 25px;
+    width: 5%;
+    height: 5%;
+    margin-right: 50%;
     object-fit: scale-down;
 }
 
