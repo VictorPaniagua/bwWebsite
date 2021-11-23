@@ -3,10 +3,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   background-color: #333;
-  position: fixed;
-  z-index: 9999;
-  top: 0;
-  width: 100%;
+  padding: 10px 16px;
 }
 
 .navigation-bar {
@@ -23,12 +20,12 @@ header {
       -ms-flex-direction: row;
           flex-direction: row;
   list-style-type: none;
-  overflow: hidden;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-ordinal-group: 6;
-      -ms-flex-order: 5;
-          order: 5;
+}
+
+.sticky {
+  position: fixed;
+  height: 0;
+  width: 100%;
 }
 
 .logo-home-link {
