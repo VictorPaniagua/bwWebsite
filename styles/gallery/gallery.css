@@ -1,5 +1,30 @@
+.gallery {
+  border: solid;
+  border-color: white;
+}
+
+.gallery h1 {
+  text-align: center;
+}
+
+.gallery-photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.work-photo-before {
+  width: 50%;
+  height: 25%;
+}
+
+.work-photo-after {
+  width: 50%;
+  height: 25%;
+}
+
 .golfcourse-photo {
   width: 100%;
-  height: 25%;
+  height: 10%;
 }
 /*# sourceMappingURL=gallery.css.map */
