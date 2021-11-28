@@ -10,44 +10,43 @@ header {
 
 // Navigation bar start
 .navigation-bar {
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
     background-color: #333;
+}
+
+.logo-container {
+    // margin-bottom: 90%;
+}
+
+.logo-home-link {
+    width: 75%;
+    height: 75%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    object-fit: contain;
 }
 
 .navigation-links{
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    overflow: hidden;
-    flex-wrap: wrap;
-    order: 5;
+    margin: auto;
 }
 
-.navigation-bar ul{
-    display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.navigation-links li {
-    
-}
-
-.logo-home-link {
-    width: 5%;
-    height: 5%;
-    margin-right: 50%;
-    object-fit: scale-down;
-}
-
-.navigation-links a {
-    color: rgb(201, 240, 217);
+.navigation-links li a {
+    color: white;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 32px;
     font-weight: bold;
     -webkit-text-stroke: 1px grey;
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .navigation-links a:hover{

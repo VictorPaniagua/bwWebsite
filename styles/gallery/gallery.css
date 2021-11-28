@@ -11,14 +11,28 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.work-photo-before {
+.work-photo-after {
+  width: 50%;
+  height: 10%;
+}
+
+.team-working {
   width: 50%;
   height: 25%;
 }
 
-.work-photo-after {
+.work-sidewalk-after {
+  width: 50%;
+  height: 10%;
+}
+
+.work-photo-before {
   width: 50%;
   height: 25%;
 }

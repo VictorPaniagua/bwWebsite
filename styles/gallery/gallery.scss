@@ -9,6 +9,22 @@
 
 .gallery-photos {
     display: flex;
+    flex-direction: column;
+}
+
+.work-photo-after {
+    width: 50%;
+    height: 10%;
+}
+
+.team-working{
+    width: 50%;
+    height: 25%;
+}
+
+.work-sidewalk-after{
+    width: 50%;
+    height: 10%;
 }
 
 .work-photo-before {
@@ -16,10 +32,6 @@
     height: 25%;
 }
 
-.work-photo-after {
-    width: 50%;
-    height: 25%;
-}
 
 .golfcourse-photo {
     width: 100%;

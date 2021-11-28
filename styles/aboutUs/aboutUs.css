@@ -3,7 +3,7 @@
   margin-top: 10%;
 }
 
-.aboutUs-container {
+.about-us-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12,10 +12,15 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: rgba(201, 240, 217, 0.5);
+  background-color: #ecfff4;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.aboutUs-description-container {
+.about-us-description {
   text-align: center;
   margin: auto;
 }
