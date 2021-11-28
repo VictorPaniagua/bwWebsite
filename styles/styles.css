@@ -20,15 +20,12 @@ header {
           flex-direction: row;
   list-style-type: none;
   background-color: #333;
+  height: 150px;
 }
 
 .logo-home-link {
-  width: 75%;
-  height: 75%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  margin-right: 5%;
-  margin-left: 5%;
+  width: 100%;
+  height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -90,12 +87,18 @@ body {
 .about-us-description {
   text-align: center;
   margin: auto;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .team-photo {
   width: 50%;
   height: auto;
   padding: 20px 25% 20px 25%;
+}
+
+.highlighted-projects {
+  text-align: center;
 }
 
 .park-photo {
@@ -151,11 +154,6 @@ footer section {
   left: 90%;
 }
 
-.gallery {
-  border: solid;
-  border-color: white;
-}
-
 .gallery h1 {
   text-align: center;
 }
@@ -170,22 +168,22 @@ footer section {
           flex-direction: column;
 }
 
-.work-photo-after {
-  width: 50%;
-  height: 10%;
-}
-
-.team-working {
+.photo-one {
   width: 50%;
   height: 25%;
 }
 
-.work-sidewalk-after {
+.photo-two {
   width: 50%;
-  height: 10%;
+  height: 25%;
 }
 
-.work-photo-before {
+.photo-three {
+  width: 50%;
+  height: 25%;
+}
+
+.photo-four {
   width: 50%;
   height: 25%;
 }
@@ -196,7 +194,12 @@ footer section {
 }
 
 .services-container {
-  background-color: #c9f0d9;
+  background-color: #ecfff4;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .services-container h1 {
@@ -219,6 +222,15 @@ footer section {
 .trail-photo {
   width: 100%;
   height: 20%;
+}
+
+.our-certs-container {
+  background-color: #ecfff4;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .forest-photo {

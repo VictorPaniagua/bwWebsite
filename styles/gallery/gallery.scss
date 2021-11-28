@@ -1,6 +1,5 @@
 .gallery {
-    border: solid;
-    border-color: white;
+
 }
 
 .gallery h1{
@@ -12,22 +11,22 @@
     flex-direction: column;
 }
 
-.work-photo-after {
-    width: 50%;
-    height: 10%;
-}
-
-.team-working{
+.photo-one {
     width: 50%;
     height: 25%;
 }
 
-.work-sidewalk-after{
+.photo-two {
     width: 50%;
-    height: 10%;
+    height: 25%;
 }
 
-.work-photo-before {
+.photo-three {
+    width: 50%;
+    height: 25%;
+}
+
+.photo-four {
     width: 50%;
     height: 25%;
 }
