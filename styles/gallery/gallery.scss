@@ -7,28 +7,28 @@
 }
 
 .gallery-photos {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    
 }
 
 .photo-one {
-    width: 50%;
-    height: 25%;
+    width: 100px;
+    height: 100px;
 }
 
 .photo-two {
-    width: 50%;
-    height: 25%;
+    width: 100px;
+    height: 100px;
 }
 
 .photo-three {
-    width: 50%;
-    height: 25%;
+    width: 100px;
+    height: 100px;
 }
 
 .photo-four {
-    width: 50%;
-    height: 25%;
+    width: 100px;
+    height: 100px;
 }
 
 
