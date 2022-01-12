@@ -3,15 +3,11 @@ header {
   display: -ms-flexbox;
   display: flex;
   background-color: #333;
-<<<<<<< HEAD
   position: -webkit-sticky;
   position: sticky;
   z-index: 9999;
   top: 0;
   width: 100%;
-=======
-  padding: 10px 16px;
->>>>>>> c88879e56a8563d8e3409c966a23156ac451a62a
 }
 
 .navigation-bar {
@@ -43,23 +39,7 @@ header {
       -ms-flex-direction: row;
           flex-direction: row;
   list-style-type: none;
-<<<<<<< HEAD
   margin: auto;
-=======
-}
-
-.sticky {
-  position: fixed;
-  height: 0;
-  width: 100%;
-}
-
-.logo-home-link {
-  width: 25px;
-  height: 25px;
-  -o-object-fit: scale-down;
-     object-fit: scale-down;
->>>>>>> c88879e56a8563d8e3409c966a23156ac451a62a
 }
 
 .navigation-links li a {
@@ -107,12 +87,8 @@ body {
 .about-us-description {
   text-align: center;
   margin: auto;
-<<<<<<< HEAD
   padding-left: 40px;
   padding-right: 40px;
-=======
-  border: solid;
->>>>>>> c88879e56a8563d8e3409c966a23156ac451a62a
 }
 
 .team-photo {
@@ -182,12 +158,9 @@ footer section {
   text-align: center;
 }
 
-.gallery-photos {
-  display: -ms-grid;
-  display: grid;
-}
-
 .photo-one {
+  margin-right: 10%;
+  margin-left: 10%;
   width: 400px;
   height: 400px;
 }
@@ -198,6 +171,8 @@ footer section {
 }
 
 .photo-three {
+  margin-right: 10%;
+  margin-left: 10%;
   width: 400px;
   height: 400px;
 }
@@ -205,11 +180,6 @@ footer section {
 .photo-four {
   width: 400px;
   height: 400px;
-}
-
-.golfcourse-photo {
-  width: 100%;
-  height: 10%;
 }
 
 .services-container {
@@ -252,8 +222,16 @@ footer section {
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.forest-photo {
-  width: 100%;
+.certification {
+  text-align: center;
+}
+
+.naics-codes {
+  text-align: center;
+}
+
+.certification-landscaper {
+  width: 300px;
   height: auto;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -2,12 +2,9 @@
   text-align: center;
 }
 
-.gallery-photos {
-  display: -ms-grid;
-  display: grid;
-}
-
 .photo-one {
+  margin-right: 10%;
+  margin-left: 10%;
   width: 400px;
   height: 400px;
 }
@@ -18,6 +15,8 @@
 }
 
 .photo-three {
+  margin-right: 10%;
+  margin-left: 10%;
   width: 400px;
   height: 400px;
 }
@@ -25,10 +24,5 @@
 .photo-four {
   width: 400px;
   height: 400px;
-}
-
-.golfcourse-photo {
-  width: 100%;
-  height: 10%;
 }
 /*# sourceMappingURL=gallery.css.map */

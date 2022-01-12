@@ -1,18 +1,10 @@
 header {
     display: flex;
     background-color: #333;
-<<<<<<< HEAD
     position: sticky;
     z-index: 9999;
     top: 0;
     width: 100%;
-=======
-    padding: 10px 16px;
-    // position: fixed;
-    // z-index: 9999;
-    // top: 0;
-    // width: 100%;
->>>>>>> c88879e56a8563d8e3409c966a23156ac451a62a
 }
 
 
@@ -21,20 +13,8 @@ header {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-<<<<<<< HEAD
     background-color: #333;
     height: 150px;
-=======
-    // overflow: hidden;
-    // flex-wrap: wrap;
-    // order: 5;
-}
-
-.sticky {
-    position: fixed;
-    height: 0;
-    width: 100%;
->>>>>>> c88879e56a8563d8e3409c966a23156ac451a62a
 }
 
 .logo-container {
