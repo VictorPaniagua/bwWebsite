@@ -1,4 +1,17 @@
+.our-services {
+  position: relative;
+  padding: 50px;
+}
+
 .services-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #ecfff4;
   margin-right: 5%;
   margin-bottom: 5%;
@@ -18,14 +31,16 @@
   -ms-flex-preferred-size: auto;
       flex-basis: auto;
   justify-content: center;
-}
-
-.services-container h1 {
   text-align: center;
 }
 
-.trail-photo {
-  width: 100%;
-  height: 20%;
+.services-container p {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.services-list-container {
+  padding-left: 40px;
+  padding-right: 40px;
 }
 /*# sourceMappingURL=ourServices.css.map */

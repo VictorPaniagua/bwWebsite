@@ -10,6 +10,8 @@
 }
 
 .photo-two {
+  margin-right: 5%;
+  margin-left: 5%;
   width: 400px;
   height: 400px;
 }
@@ -22,6 +24,8 @@
 }
 
 .photo-four {
+  margin-right: 5%;
+  margin-left: 5%;
   width: 400px;
   height: 400px;
 }

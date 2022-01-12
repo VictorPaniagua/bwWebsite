@@ -1,8 +1,13 @@
 .our-services {
-    
+    position: relative;
+    padding: 50px;
+    // margin-top: 10%;
 }
 
 .services-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
     background-color: rgb(236, 255, 244);
     margin-right: 5%;
     margin-bottom: 5%;
@@ -15,17 +20,15 @@
     justify-content: center;
     flex-basis: auto;
     justify-content: center;
-}
-
-.services-container h1{
     text-align: center;
 }
-.services-container p {
 
+.services-container p {
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
-
-.trail-photo {
-    width: 100%;
-    height: 20%;
+.services-list-container {
+    padding-left: 40px;
+    padding-right: 40px;
 }

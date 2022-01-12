@@ -1,4 +1,17 @@
+.our-certification {
+  position: relative;
+  padding: 50px;
+}
+
 .our-certs-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #ecfff4;
   margin-right: 5%;
   margin-bottom: 5%;

@@ -1,4 +1,13 @@
+.our-certification {
+    position: relative;
+    padding: 50px;
+    // margin-top: 10%;
+}
+
 .our-certs-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
     background-color: rgb(236, 255, 244);
     margin-right: 5%;
     margin-bottom: 5%;
