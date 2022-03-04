@@ -1,6 +1,6 @@
 header {
     display: flex;
-    background-color: #333;
+    background-color: white;
     position: sticky;
     z-index: 9999;
     top: 0;
@@ -13,21 +13,13 @@ header {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    background-color: #333;
+    background-color: white;
     height: 90px;
-}
-
-.logo-container {
-    // margin-bottom: 90%;
 }
 
 .logo-home-link {
     width: 100%;
     height: 100%;
-    // margin-top: 5%;
-    // margin-bottom: 5%;
-    // margin-right: 5%;
-    // margin-left: 5%;
     object-fit: contain;
 }
 
@@ -39,19 +31,22 @@ header {
 }
 
 .navigation-links li a {
-    color: white;
+    color: rgb(74, 204, 79);
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 32px;
+    font-size: 16px;
     font-weight: bold;
-    -webkit-text-stroke: 1px grey;
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 .navigation-links a:hover{
-    background-color: #111;
+    color: rgb(144,199,124);
+}
+
+.contact-number {
+    
 }
 
 // Navigation bar end

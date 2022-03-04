@@ -2,7 +2,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #333;
+  background-color: white;
   position: -webkit-sticky;
   position: sticky;
   z-index: 9999;
@@ -19,7 +19,7 @@ header {
       -ms-flex-direction: row;
           flex-direction: row;
   list-style-type: none;
-  background-color: #333;
+  background-color: white;
   height: 90px;
 }
 
@@ -43,23 +43,22 @@ header {
 }
 
 .navigation-links li a {
-  color: white;
+  color: #4acc4f;
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 32px;
+  font-size: 16px;
   font-weight: bold;
-  -webkit-text-stroke: 1px grey;
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .navigation-links a:hover {
-  background-color: #111;
+  color: #90c77c;
 }
 
 body {
-  background-color: #c9f0d9;
+  background-color: white;
 }
 
 .about-us {
@@ -94,7 +93,7 @@ body {
 
 .about-us-description h1 {
   font-size: 36px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Courier New', monospace;
   font-style: oblique;
   font-weight: bold;
   font-variant: small-caps;
