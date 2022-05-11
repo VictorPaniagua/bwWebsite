@@ -19,7 +19,6 @@ header {
       -ms-flex-direction: row;
           flex-direction: row;
   list-style-type: none;
-  background-color: white;
   height: 90px;
 }
 
@@ -57,31 +56,28 @@ header {
   color: #90c77c;
 }
 
+.phone-number {
+  color: #4acc4f;
+}
+
 body {
-  background-color: white;
+  background-color: #fcfcfc;
 }
 
 .about-us {
   position: relative;
   padding: 50px;
+  background-color: #daf7e7;
 }
 
 .about-us-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   position: relative;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border-radius: 25px;
-  background-color: #ecfff4;
-  margin-right: 5%;
-  margin-bottom: 5%;
-  margin-left: 5%;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: auto;
+  width: auto;
 }
 
 .about-us-description {
@@ -121,14 +117,13 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #333;
+  background-color: #daf7e7;
 }
 
 footer section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #333;
 }
 
 .footer-navigation-links li {
@@ -138,7 +133,7 @@ footer section {
 .footer-navigation-links li a:link {
   text-decoration: none;
   font-size: 15px;
-  color: white;
+  color: #4acc4f;
 }
 
 .footer-navigation-links li a:visited {
@@ -165,36 +160,57 @@ footer section {
   left: 90%;
 }
 
+.gallery {
+  background-color: #daf7e7;
+}
+
 .gallery h1 {
   text-align: center;
 }
 
+.image-carousel {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2em auto;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+}
+
+.carousel-photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: -webkit-transform 0.25s;
+  transition: -webkit-transform 0.25s;
+  transition: transform 0.25s;
+  transition: transform 0.25s, -webkit-transform 0.25s;
+}
+
 .photo-one {
-  margin-right: 10%;
-  margin-left: 10%;
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
 }
 
 .photo-two {
-  margin-right: 5%;
-  margin-left: 5%;
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
 }
 
 .photo-three {
-  margin-right: 10%;
-  margin-left: 10%;
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
 }
 
 .photo-four {
-  margin-right: 5%;
-  margin-left: 5%;
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
 }
 
 .our-services {
@@ -212,12 +228,6 @@ footer section {
       -ms-flex-direction: column;
           flex-direction: column;
   border-radius: 25px;
-  background-color: #ecfff4;
-  margin-right: 5%;
-  margin-bottom: 5%;
-  margin-left: 5%;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .services-container h1 {
@@ -258,13 +268,6 @@ footer section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border-radius: 25px;
-  background-color: #ecfff4;
-  margin-right: 5%;
-  margin-bottom: 5%;
-  margin-left: 5%;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .certification {

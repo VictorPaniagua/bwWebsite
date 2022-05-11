@@ -1,32 +1,53 @@
+.gallery {
+  background-color: #daf7e7;
+}
+
 .gallery h1 {
   text-align: center;
 }
 
+.image-carousel {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2em auto;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+}
+
+.carousel-photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: -webkit-transform 0.25s;
+  transition: -webkit-transform 0.25s;
+  transition: transform 0.25s;
+  transition: transform 0.25s, -webkit-transform 0.25s;
+}
+
 .photo-one {
-  margin-right: 10%;
-  margin-left: 10%;
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
 }
 
 .photo-two {
-  margin-right: 5%;
-  margin-left: 5%;
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
 }
 
 .photo-three {
-  margin-right: 10%;
-  margin-left: 10%;
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
 }
 
 .photo-four {
-  margin-right: 5%;
-  margin-left: 5%;
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
 }
 /*# sourceMappingURL=gallery.css.map */

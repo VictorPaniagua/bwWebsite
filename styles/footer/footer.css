@@ -2,14 +2,13 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #333;
+  background-color: #daf7e7;
 }
 
 footer section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #333;
 }
 
 .footer-navigation-links li {
@@ -19,7 +18,7 @@ footer section {
 .footer-navigation-links li a:link {
   text-decoration: none;
   font-size: 15px;
-  color: white;
+  color: #4acc4f;
 }
 
 .footer-navigation-links li a:visited {

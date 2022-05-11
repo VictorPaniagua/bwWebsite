@@ -19,7 +19,6 @@ header {
       -ms-flex-direction: row;
           flex-direction: row;
   list-style-type: none;
-  background-color: white;
   height: 90px;
 }
 
@@ -55,5 +54,9 @@ header {
 
 .navigation-links a:hover {
   color: #90c77c;
+}
+
+.phone-number {
+  color: #4acc4f;
 }
 /*# sourceMappingURL=heading.css.map */
