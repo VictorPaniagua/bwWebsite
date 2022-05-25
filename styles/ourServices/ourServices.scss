@@ -1,3 +1,7 @@
+$base-color: rgb(45, 103, 53);
+$secondary-color: rgb(74, 204, 79);;
+$base-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 .our-services {
     position: relative;
     padding: 50px;
@@ -22,14 +26,53 @@
     flex-basis: auto;
     justify-content: center;
     text-align: center;
+    font-size: 36px;
+    color: $secondary-color;
 }
 
 .services-container p {
     padding-left: 40px;
     padding-right: 40px;
+    font-size: 18px;
+    font-family: $base-font;
+    font-style: oblique;
+    color: rgb(45, 103, 53);
 }
 
 .services-list-container {
     padding-left: 40px;
     padding-right: 40px;
+}
+
+.landscaping-container {
+    font-size: 18px;
+    font-family: $base-font;
+    font-style: oblique;
+    color: $base-color;
+}
+
+.landscaping-container p {
+    color: $secondary-color;
+}
+
+.painting-container {
+    font-size: 18px;
+    font-family: $base-font;
+    font-style: oblique;
+    color: $base-color;
+}
+
+.painting-container p {
+    color: $secondary-color;
+}
+
+.powerwashing-container {
+    font-size: 18px;
+    font-family: $base-font;
+    font-style: oblique;
+    color: $base-color;
+}
+
+.powerwashing-container p {
+    color: $secondary-color;
 }

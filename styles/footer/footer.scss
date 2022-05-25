@@ -1,3 +1,7 @@
+$base-color: rgb(74, 204, 79);
+$secondary-color: rgb(45, 103, 53);
+$base-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 footer {
     display: flex;
     background-color: rgb(218, 247, 231);
@@ -12,24 +16,25 @@ footer section{
 // Footer navigation links start
 .footer-navigation-links li{
     list-style-type: none;
+    font-family: $base-font;
 }
 
 .footer-navigation-links li a:link {
     text-decoration: none;
     font-size: 15px;
-    color: rgb(74, 204, 79);
+    color: $base-color;
 }
 
 .footer-navigation-links li a:visited {
     text-decoration: none;
     font-size: 15px;
-    color: white;
+    color: $secondary-color;
 }
 
 .footer-navigation-links li a:hover{
     text-decoration: none;
     font-size: 15px;
-    color: greenyellow;
+    color: $secondary-color;
 }
 // Footer navigation links end
 
@@ -37,7 +42,8 @@ footer section{
     position: relative;
     left: 90%;
     border-left: solid 2px;
-    color: white;
+    font-family: $base-font;
+    color: $base-color;
 }
 
 .contact-us p{

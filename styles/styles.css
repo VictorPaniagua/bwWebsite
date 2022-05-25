@@ -111,6 +111,7 @@ body {
 
 .highlighted-projects {
   text-align: center;
+  color: #2d6735;
 }
 
 footer {
@@ -128,6 +129,7 @@ footer section {
 
 .footer-navigation-links li {
   list-style-type: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .footer-navigation-links li a:link {
@@ -139,20 +141,21 @@ footer section {
 .footer-navigation-links li a:visited {
   text-decoration: none;
   font-size: 15px;
-  color: white;
+  color: #2d6735;
 }
 
 .footer-navigation-links li a:hover {
   text-decoration: none;
   font-size: 15px;
-  color: greenyellow;
+  color: #2d6735;
 }
 
 .contact-us {
   position: relative;
   left: 90%;
   border-left: solid 2px;
-  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: #4acc4f;
 }
 
 .contact-us p {
@@ -166,6 +169,10 @@ footer section {
 
 .gallery h1 {
   text-align: center;
+  font-size: 36px;
+  font-family: "Courier New", monospace;
+  font-style: oblique;
+  color: #4acc4f;
 }
 
 .image-carousel {
@@ -242,16 +249,55 @@ footer section {
       flex-basis: auto;
   justify-content: center;
   text-align: center;
+  font-size: 36px;
+  color: #4acc4f;
 }
 
 .services-container p {
   padding-left: 40px;
   padding-right: 40px;
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
+  color: #2d6735;
 }
 
 .services-list-container {
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.landscaping-container {
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
+  color: #2d6735;
+}
+
+.landscaping-container p {
+  color: #4acc4f;
+}
+
+.painting-container {
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
+  color: #2d6735;
+}
+
+.painting-container p {
+  color: #4acc4f;
+}
+
+.powerwashing-container {
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
+  color: #2d6735;
+}
+
+.powerwashing-container p {
+  color: #4acc4f;
 }
 
 .our-certification {
@@ -272,10 +318,18 @@ footer section {
 
 .certification {
   text-align: center;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: oblique;
+  color: #2d6735;
 }
 
 .naics-codes {
   text-align: center;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: oblique;
+  color: #2d6735;
 }
 
 .certification-landscaper {

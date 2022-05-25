@@ -1,9 +1,17 @@
+$base-color: rgb(45, 103, 53);
+$secondary-color: rgb(74, 204, 79);;
+$base-font: 'Courier New', monospace;
+
 .gallery {
     background-color: rgb(218, 247, 231);
 }
 
 .gallery h1{
     text-align: center;
+    font-size: 36px;
+    font-family: $base-font;
+    font-style: oblique;
+    color: $secondary-color;
 }
 
 .image-carousel {

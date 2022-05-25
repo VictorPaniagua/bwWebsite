@@ -27,15 +27,54 @@
       flex-basis: auto;
   justify-content: center;
   text-align: center;
+  font-size: 36px;
+  color: #4acc4f;
 }
 
 .services-container p {
   padding-left: 40px;
   padding-right: 40px;
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
+  color: #2d6735;
 }
 
 .services-list-container {
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.landscaping-container {
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
+  color: #2d6735;
+}
+
+.landscaping-container p {
+  color: #4acc4f;
+}
+
+.painting-container {
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
+  color: #2d6735;
+}
+
+.painting-container p {
+  color: #4acc4f;
+}
+
+.powerwashing-container {
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
+  color: #2d6735;
+}
+
+.powerwashing-container p {
+  color: #4acc4f;
 }
 /*# sourceMappingURL=ourServices.css.map */

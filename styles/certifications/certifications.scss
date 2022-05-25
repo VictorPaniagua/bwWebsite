@@ -8,20 +8,22 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    // border-radius: 25px;
-    // background-color: rgb(236, 255, 244);
-    // margin-right: 5%;
-    // margin-bottom: 5%;
-    // margin-left: 5%;
-    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .certification {
     text-align: center;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    color: rgb(45, 103, 53);
 }
 
 .naics-codes {
     text-align: center;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    color: rgb(45, 103, 53);
 }
 
 .certification-landscaper {

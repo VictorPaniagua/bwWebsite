@@ -1,3 +1,6 @@
+$base-color: rgb(45, 103, 53);
+$secondary-color: rgb(74, 204, 79);
+
 .about-us {
     position: relative;
     padding: 50px;
@@ -10,13 +13,8 @@
     // display: flex;
     position: relative;
     flex-direction: column;
-
     height: auto;
     width: auto;
-    // margin-right: 5%;
-    // margin-bottom: 5%;
-    // margin-left: 5%;
-    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .about-us-description {
@@ -32,14 +30,14 @@
     font-style: oblique;
     font-weight: bold;
     font-variant: small-caps;
-    color: rgb(74, 204, 79);
+    color: $secondary-color
 }
 
 .about-us-description p {
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: oblique;
-    color: rgb(45, 103, 53);
+    color: $base-color
 }
 
 .team-photo {
@@ -50,5 +48,5 @@
 
 .highlighted-projects {
     text-align: center;
-    
+    color: $base-color
 }

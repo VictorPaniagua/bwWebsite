@@ -13,6 +13,7 @@ footer section {
 
 .footer-navigation-links li {
   list-style-type: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .footer-navigation-links li a:link {
@@ -24,20 +25,21 @@ footer section {
 .footer-navigation-links li a:visited {
   text-decoration: none;
   font-size: 15px;
-  color: white;
+  color: #2d6735;
 }
 
 .footer-navigation-links li a:hover {
   text-decoration: none;
   font-size: 15px;
-  color: greenyellow;
+  color: #2d6735;
 }
 
 .contact-us {
   position: relative;
   left: 90%;
   border-left: solid 2px;
-  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: #4acc4f;
 }
 
 .contact-us p {

@@ -4,6 +4,10 @@
 
 .gallery h1 {
   text-align: center;
+  font-size: 36px;
+  font-family: "Courier New", monospace;
+  font-style: oblique;
+  color: #4acc4f;
 }
 
 .image-carousel {
