@@ -21,13 +21,13 @@ $base-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 }
 
 .services-container h1 {
-    flex-flow: row wrap;
-    justify-content: center;
-    flex-basis: auto;
-    justify-content: center;
     text-align: center;
     font-size: 36px;
-    color: $secondary-color;
+    font-family: 'Courier New', monospace;
+    font-style: oblique;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: $secondary-color
 }
 
 .services-container p {

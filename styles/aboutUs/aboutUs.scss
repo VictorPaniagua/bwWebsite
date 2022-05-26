@@ -1,5 +1,6 @@
 $base-color: rgb(45, 103, 53);
 $secondary-color: rgb(74, 204, 79);
+$base-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 .about-us {
     position: relative;
@@ -35,7 +36,7 @@ $secondary-color: rgb(74, 204, 79);
 
 .about-us-description p {
     font-size: 18px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: $base-font;
     font-style: oblique;
     color: $base-color
 }
@@ -48,5 +49,8 @@ $secondary-color: rgb(74, 204, 79);
 
 .highlighted-projects {
     text-align: center;
+    font-size: 18px;
+    font-family: $base-font;
+    font-style: oblique;
     color: $base-color
 }

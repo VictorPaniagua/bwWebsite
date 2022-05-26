@@ -16,18 +16,12 @@
 }
 
 .services-container h1 {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-preferred-size: auto;
-      flex-basis: auto;
-  justify-content: center;
   text-align: center;
   font-size: 36px;
+  font-family: 'Courier New', monospace;
+  font-style: oblique;
+  font-weight: bold;
+  font-variant: small-caps;
   color: #4acc4f;
 }
 

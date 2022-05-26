@@ -98,7 +98,7 @@ body {
 
 .about-us-description p {
   font-size: 18px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-style: oblique;
   color: #2d6735;
 }
@@ -111,6 +111,9 @@ body {
 
 .highlighted-projects {
   text-align: center;
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
   color: #2d6735;
 }
 
@@ -141,7 +144,7 @@ footer section {
 .footer-navigation-links li a:visited {
   text-decoration: none;
   font-size: 15px;
-  color: #2d6735;
+  color: #4acc4f;
 }
 
 .footer-navigation-links li a:hover {
@@ -172,6 +175,8 @@ footer section {
   font-size: 36px;
   font-family: "Courier New", monospace;
   font-style: oblique;
+  font-weight: bold;
+  font-variant: small-caps;
   color: #4acc4f;
 }
 
@@ -238,18 +243,12 @@ footer section {
 }
 
 .services-container h1 {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-preferred-size: auto;
-      flex-basis: auto;
-  justify-content: center;
   text-align: center;
   font-size: 36px;
+  font-family: 'Courier New', monospace;
+  font-style: oblique;
+  font-weight: bold;
+  font-variant: small-caps;
   color: #4acc4f;
 }
 
@@ -314,9 +313,27 @@ footer section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .certification {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
   text-align: center;
   font-size: 18px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -325,6 +342,13 @@ footer section {
 }
 
 .naics-codes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
   font-size: 18px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -333,7 +357,30 @@ footer section {
 }
 
 .certification-landscaper {
-  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  width: auto;
   height: auto;
+  max-height: 20%;
+  max-width: 20%;
+}
+
+.native-plant-certificate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+  height: auto;
+  width: auto;
+  max-height: 40%;
+  max-width: 40%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 /*# sourceMappingURL=styles.css.map */

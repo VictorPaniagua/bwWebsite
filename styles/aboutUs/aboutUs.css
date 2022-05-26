@@ -32,7 +32,7 @@
 
 .about-us-description p {
   font-size: 18px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-style: oblique;
   color: #2d6735;
 }
@@ -45,6 +45,9 @@
 
 .highlighted-projects {
   text-align: center;
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
   color: #2d6735;
 }
 /*# sourceMappingURL=aboutUs.css.map */

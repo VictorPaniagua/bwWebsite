@@ -8,9 +8,15 @@
     display: flex;
     position: relative;
     flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .certification {
+    display: flex;
+    order: 2;
+    flex-direction: column;
+    justify-content: end;
     text-align: center;
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,6 +25,8 @@
 }
 
 .naics-codes {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -27,6 +35,20 @@
 }
 
 .certification-landscaper {
-    width: 300px;
+    display: flex;
+    order: 1;
+    width: auto;
     height: auto;
+    max-height: 20%;
+    max-width: 20%;
+}
+
+.native-plant-certificate {
+    display: flex;
+    order: 4;
+    height: auto;
+    width: auto;
+    max-height: 40%;
+    max-width: 40%;
+    transform: rotate(90deg);
 }
