@@ -1,5 +1,5 @@
 .gallery {
-  background-color: #daf7e7;
+  background-color: rgb(218, 247, 231);
 }
 
 .gallery h1 {
@@ -9,15 +9,11 @@
   font-style: oblique;
   font-weight: bold;
   font-variant: small-caps;
-  color: #4acc4f;
+  color: rgb(74, 204, 79);
 }
 
 .image-carousel {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: center;
   display: flex;
   margin: 2em auto;
   overflow: hidden;
@@ -26,15 +22,9 @@
 }
 
 .carousel-photos {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
-  -webkit-transition: -webkit-transform 0.25s;
-  transition: -webkit-transform 0.25s;
+  transform: translateX(0);
   transition: transform 0.25s;
-  transition: transform 0.25s, -webkit-transform 0.25s;
 }
 
 .photo-one {
@@ -55,5 +45,4 @@
 .photo-four {
   width: 250px;
   height: 250px;
-}
-/*# sourceMappingURL=gallery.css.map */
+}/*# sourceMappingURL=gallery.css.map */

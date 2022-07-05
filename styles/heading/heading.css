@@ -1,25 +1,14 @@
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  background-color: white;
-  position: -webkit-sticky;
-  position: sticky;
-  z-index: 9999;
-  top: 0;
-  width: 100%;
 }
 
 .navigation-bar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   list-style-type: none;
-  height: 90px;
+  background-color: rgba(144, 199, 124, 0.5);
+  width: 100%;
+  height: 100px;
 }
 
 .logo-home-link {
@@ -30,19 +19,14 @@ header {
 }
 
 .navigation-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   list-style-type: none;
   margin: auto;
 }
 
-.navigation-links li a {
-  color: #4acc4f;
+.navigation-links a {
+  color: rgb(74, 204, 79);
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
@@ -53,10 +37,9 @@ header {
 }
 
 .navigation-links a:hover {
-  color: #90c77c;
+  color: rgb(144, 199, 124);
 }
 
 .phone-number {
-  color: #4acc4f;
-}
-/*# sourceMappingURL=heading.css.map */
+  color: rgb(74, 204, 79);
+}/*# sourceMappingURL=heading.css.map */

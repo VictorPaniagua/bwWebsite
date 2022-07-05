@@ -1,13 +1,9 @@
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  background-color: #daf7e7;
+  background-color: rgb(218, 247, 231);
 }
 
 footer section {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -19,19 +15,19 @@ footer section {
 .footer-navigation-links li a:link {
   text-decoration: none;
   font-size: 15px;
-  color: #4acc4f;
+  color: rgb(74, 204, 79);
 }
 
 .footer-navigation-links li a:visited {
   text-decoration: none;
   font-size: 15px;
-  color: #4acc4f;
+  color: rgb(74, 204, 79);
 }
 
 .footer-navigation-links li a:hover {
   text-decoration: none;
   font-size: 15px;
-  color: #2d6735;
+  color: rgb(45, 103, 53);
 }
 
 .contact-us {
@@ -39,11 +35,10 @@ footer section {
   left: 90%;
   border-left: solid 2px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  color: #4acc4f;
+  color: rgb(74, 204, 79);
 }
 
 .contact-us p {
   position: relative;
   left: 90%;
-}
-/*# sourceMappingURL=footer.css.map */
+}/*# sourceMappingURL=footer.css.map */

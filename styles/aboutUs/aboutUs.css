@@ -1,15 +1,11 @@
 .about-us {
   position: relative;
   padding: 50px;
-  background-color: #daf7e7;
 }
 
 .about-us-container {
   position: relative;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   height: auto;
   width: auto;
 }
@@ -23,18 +19,18 @@
 
 .about-us-description h1 {
   font-size: 36px;
-  font-family: 'Courier New', monospace;
+  font-family: "Courier New", monospace;
   font-style: oblique;
   font-weight: bold;
   font-variant: small-caps;
-  color: #4acc4f;
+  color: rgb(74, 204, 79);
 }
 
 .about-us-description p {
   font-size: 18px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-style: oblique;
-  color: #2d6735;
+  color: rgb(45, 103, 53);
 }
 
 .team-photo {
@@ -48,6 +44,13 @@
   font-size: 18px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-style: oblique;
-  color: #2d6735;
+  color: rgb(45, 103, 53);
 }
-/*# sourceMappingURL=aboutUs.css.map */
+
+.background {
+  position: relative;
+  opacity: 0.9;
+  bottom: 500px;
+  height: 500px;
+  z-index: -1;
+}/*# sourceMappingURL=aboutUs.css.map */

@@ -4,24 +4,23 @@
 }
 
 .our-certs-container {
-  display: -ms-grid;
   display: grid;
 }
 
 .certification {
   text-align: center;
   font-size: 18px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-style: oblique;
-  color: #2d6735;
+  color: rgb(45, 103, 53);
 }
 
 .naics-codes {
   text-align: center;
   font-size: 18px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-style: oblique;
-  color: #2d6735;
+  color: rgb(45, 103, 53);
 }
 
 .certification-landscaper {
@@ -36,7 +35,5 @@
   width: auto;
   max-height: 40%;
   max-width: 40%;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
-/*# sourceMappingURL=certifications.css.map */
+  transform: rotate(90deg);
+}/*# sourceMappingURL=certifications.css.map */
