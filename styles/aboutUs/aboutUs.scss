@@ -2,25 +2,21 @@ $base-color: rgb(45, 103, 53);
 $secondary-color: rgb(74, 204, 79);
 $base-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-.about-us {
-    position: relative;
-    padding: 50px;
-    // margin-top: 10%;
-}
-
 .about-us-container {
-    // display: flex;
-    position: relative;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: [first]50% [second]auto;
     height: auto;
     width: auto;
+    z-index: 1;
 }
 
 .about-us-description {
+    grid-column-start: first;
+    grid-column-end:second;
+    height: 350px;
+    width: 600px;
     text-align: center;
-    margin: auto;
-    padding-left: 40px;
-    padding-right: 40px;
+    background-color: rgb(220, 255, 221);
 }
 
 .about-us-description h1 {
@@ -40,23 +36,26 @@ $base-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 }
 
 .team-photo {
-    width: 50%;
-    height: auto;
-    padding: 20px 25% 20px 25%;
+    height: 350px;
+    width: 625px;
 }
 
-.highlighted-projects {
-    text-align: center;
-    font-size: 18px;
-    font-family: $base-font;
-    font-style: oblique;
-    color: $base-color
-}
+// .highlighted-projects {
+//     text-align: center;
+//     font-size: 18px;
+//     font-family: $base-font;
+//     font-style: oblique;
+//     color: $base-color;
+//     background-color: rgba(255,255,255,.8);
+// }
 
-.background {
-    position: relative;
-    opacity: 0.9;
-    bottom: 500px;
-    height: 500px;
-    z-index: -1;
-}
+// Background start
+// .background-image {
+//     // grid-column-start: first;
+//     // grid-column-end: second;
+//     opacity: 0.9;
+//     width: 400px;
+//     height: 300px;
+//     filter: brightness(70%);
+// }
+// Background end

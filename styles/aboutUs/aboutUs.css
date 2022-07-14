@@ -1,20 +1,18 @@
-.about-us {
-  position: relative;
-  padding: 50px;
-}
-
 .about-us-container {
-  position: relative;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: [first] 50% [second] auto;
   height: auto;
   width: auto;
+  z-index: 1;
 }
 
 .about-us-description {
+  grid-column-start: first;
+  grid-column-end: second;
+  height: 350px;
+  width: 600px;
   text-align: center;
-  margin: auto;
-  padding-left: 40px;
-  padding-right: 40px;
+  background-color: rgb(220, 255, 221);
 }
 
 .about-us-description h1 {
@@ -34,23 +32,6 @@
 }
 
 .team-photo {
-  width: 50%;
-  height: auto;
-  padding: 20px 25% 20px 25%;
-}
-
-.highlighted-projects {
-  text-align: center;
-  font-size: 18px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  font-style: oblique;
-  color: rgb(45, 103, 53);
-}
-
-.background {
-  position: relative;
-  opacity: 0.9;
-  bottom: 500px;
-  height: 500px;
-  z-index: -1;
+  height: 350px;
+  width: 625px;
 }/*# sourceMappingURL=aboutUs.css.map */

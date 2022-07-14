@@ -1,8 +1,3 @@
-.our-certification {
-  position: relative;
-  padding: 50px;
-}
-
 .our-certs-container {
   display: grid;
 }
@@ -24,16 +19,12 @@
 }
 
 .certification-landscaper {
-  width: auto;
-  height: auto;
-  max-height: 20%;
-  max-width: 20%;
+  width: 400px;
+  height: 400px;
 }
 
 .native-plant-certificate {
-  height: auto;
-  width: auto;
-  max-height: 40%;
-  max-width: 40%;
+  height: 400px;
+  width: 400px;
   transform: rotate(90deg);
 }/*# sourceMappingURL=certifications.css.map */
