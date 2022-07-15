@@ -1,5 +1,6 @@
 .our-certs-container {
   display: grid;
+  background-color: rgb(242, 255, 242);
 }
 
 .certification {

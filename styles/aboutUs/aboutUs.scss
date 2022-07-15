@@ -2,6 +2,15 @@ $base-color: rgb(45, 103, 53);
 $secondary-color: rgb(74, 204, 79);
 $base-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
+.about-us {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(242, 255, 242);
+    width: 100%;
+}
+
 .about-us-container {
     display: grid;
     grid-template-columns: [first]50% [second]auto;
@@ -16,7 +25,7 @@ $base-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     height: 350px;
     width: 600px;
     text-align: center;
-    background-color: rgb(220, 255, 221);
+    margin-left: 50px;
 }
 
 .about-us-description h1 {
@@ -37,7 +46,9 @@ $base-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 
 .team-photo {
     height: 350px;
-    width: 625px;
+    width: 350px;
+    border-radius: 50%;
+    margin-left: 100px;
 }
 
 // .highlighted-projects {

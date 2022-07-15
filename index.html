@@ -8,7 +8,7 @@
     <title>Bread and Water Landscaping</title>
 </head>
 <body>
-
+    <!-- Header -->
     <header>
         <!-- Logo -->
         <div class="logo-container">
@@ -44,26 +44,42 @@
         <!-- <img src="./styles/assets/Photo_1.jpg" alt="Photo of jobsite" class="background-image"> -->
     </section>
 
-                <!-- Gallery -->
+    <!-- Gallery -->
     <section id="gallery"  class="gallery">
-        <h1>Our Previous Work</h1>
-
-        <div class="image-carousel">
-            <button class="carousel-button-previous" id="previous"><</button>
-            <div class="carousel-photos">
-                <img src="./styles/assets/work-after.jpg" alt="" class="photo-one">
-                <img src="./styles/assets/team-working.jpg" alt="" class="photo-two">
-                <img src="styles/assets/work-after-sidewalk.jpg" alt="" class="photo-three">
-                <img src="./styles/assets/work-before.jpg" alt="" class="photo-four">
+        <div class="gallery-container">
+            <div class="mySlides fade">
+                <img src="./styles/assets/work-after.jpg" class="photo">
+                <div class="text">Caption  Text</div>
             </div>
-            <button class="carousel-button-next" id="next">></button>
+            <div class="mySlides fade">
+                <img src="./styles/assets/team-working.jpg" class="photo">
+                <div class="text">Caption  Two</div>
+            </div>
+            <div class="mySlides fade">
+                <img src="styles/assets/work-after-sidewalk.jpg" class="photo">
+                <div class="text">Caption  Three</div>
+            </div>
+            <div class="mySlides fade">
+                <img src="./styles/assets/work-before.jpg" class="photo">
+                <div class="text">Caption  Four</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div style="text-align: center;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
         </div>
     </section>
 
-        <!-- Cetifications -->
+    <!-- Cetifications -->
     <section id="certification" class="our-certification">
             <div class="our-certs-container">
-                <img src="styles/assets/LandscaperCertificationProgram_Logo_4C_LG.jpg" alt="Landscaper certification logo" class="certification-landscaper">
+                <!-- <img src="styles/assets/LandscaperCertificationProgram_Logo_4C_LG.jpg" alt="Landscaper certification logo" class="certification-landscaper"> -->
                 <img src="styles/assets/Certificate.JPG" alt="California native plant landscaper certificate" class="native-plant-certificate">
                 <div class="certification">
                     <p>Metro SBE/DBE, City of Los Angeles-OBE</p>
@@ -76,7 +92,7 @@
             </div>
     </section>
     
-            <!-- Our Services -->
+    <!-- Our Services -->
     <section id="services"  class="our-services">
         <div class="services-container">
             <h1>Our Services</h1>
@@ -105,6 +121,7 @@
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
         <section>
             <ul class="footer-navigation-links">
@@ -122,5 +139,6 @@
         </section>
     </footer>
 </body>
-<script type="text/javascript" src="scripts/index.js"></script>
+<script type="text/javascript" src="./scripts/index.js"></script>
+<script type="text/javascript" src="./scripts/slideshow.js"></script>
 </html>
