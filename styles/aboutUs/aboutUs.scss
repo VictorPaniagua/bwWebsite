@@ -5,6 +5,7 @@ $base-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 .about-us {
     position: relative;
     padding: 50px;
+    background-color: rgba(144,199,124,0.5);
     // margin-top: 10%;
 }
 
@@ -51,12 +52,4 @@ $base-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     font-family: $base-font;
     font-style: oblique;
     color: $base-color
-}
-
-.background {
-    position: relative;
-    opacity: 0.9;
-    bottom: 500px;
-    height: 500px;
-    z-index: -1;
 }

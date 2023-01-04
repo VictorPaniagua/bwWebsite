@@ -1,22 +1,35 @@
-header {
-    display: flex;
-}
-
-
 // Navigation bar start
 .navigation-bar {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    background-color: rgba(144,199,124,0.5);
+    display:grid;
     width: 100%;
     height: 100px;
 }
 
-.logo-home-link {
+.logo-container {
+    display: grid;
+    grid-template-columns: [column-start] 25% [column2] 50% [column3] 25% [column-end];
+    grid-template-rows: [row-start] 300px [row-end];
+
+}
+
+.logo-item {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.logo-home-container {
+    justify-self: center;
+    align-self: center;
+    overflow: hidden;
+    height: 300px;
+}
+
+.logo {
     width: 100%;
     height: 100%;
-    object-fit: contain;
 }
 
 .navigation-links{
@@ -40,13 +53,6 @@ header {
 .navigation-links a:hover{
     color: rgb(144,199,124);
 }
-
-
-.phone-number {
-    color: rgb(74,204,79);
-    
-}
-
 
 
 // Navigation bar end
